@@ -1,3 +1,14 @@
 h1 {
     color: firebrick;
+    text-align: center;
+    font-size: 48px;
   }
+
+#candycanes {
+  margin-bottom: 15px;
+  justify-content: center;
+}
+
+button {
+  margin-bottom: 15px;
+}

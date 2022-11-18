@@ -6,6 +6,7 @@ class Product(models.Model):
     name = models.CharField(max_length=50)
     description = models.CharField(max_length=200)
     price = models.CharField(max_length=10)
+    checkout_item = models.BooleanField(default=False)
 
     def __str__(self): #important for admin (backend)
         return f'{self.name}, {self.description}, {self.price}'
